@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core'
 import { AppModule } from './app.module'
 import * as helmet from 'helmet'
-import * as compression from 'compression'
+import compression = require('compression')
 import * as express from 'express'
 
 async function bootstrap() {
